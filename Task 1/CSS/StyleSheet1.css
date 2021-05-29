@@ -1,0 +1,50 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../Images/bgindex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    width: 350px;
+    height: 450px;
+    background: white;
+    padding: 50px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    text-align: center;
+}
+#password, #username {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid darkgrey;
+}
+
+#submit {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: #ff007f;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 0px darkgrey;
+}
+a {
+    color: #ff007f;
+    text-decoration: None;
+}
+h1 {
+    font-family: 'Jim Nightshade',cursive;
+}
+
