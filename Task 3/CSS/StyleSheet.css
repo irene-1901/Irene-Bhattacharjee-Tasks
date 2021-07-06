@@ -1,0 +1,165 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    padding:1%;
+}
+.navbar-dark {
+    font-size: 20px;
+}
+.navbar-dark .violet {
+    color: darkviolet;
+    font-size: 36px;
+}
+.home, .services {
+    background-image: url("../Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    
+}
+/*.home1 {
+    margin-left: 13%;
+}*/
+.text1 {
+    font-size: 20px;
+}
+.heading1{
+    font-size:40px;
+    font-weight: 900;
+}
+.text {
+    margin-top: 10%;
+}
+.Home {
+    border-radius: 50%;
+    height: 390px;
+    margin-top: 15%;
+}
+.violet1 {
+    background-color: darkviolet;
+    margin-bottom:20px;
+    /*box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);*/
+}
+.aboutus{
+    height:65vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    grid-template-rows: repeat(3, 0.2fr);
+    margin-left: 10%;
+}
+.about {
+    border-radius: 50%;
+    height: 112px;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.message {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+    color: darkviolet;
+}
+.about1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.fa-check-square-o, .fa-4x, .fa-angle-right {
+    color: darkviolet;
+}
+.card{
+    height: 400px;
+    padding: 20px;
+    margin-top:50px;
+}
+.contactus{
+    height:50vh;
+}
+.form1{
+    margin-bottom: 7px;
+}
+.available{
+    background-color: black;
+    color: white;
+    height: 30vh;
+}
+.down:before {
+    content: "\f101"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+h6{
+    margin-top:20px;
+}
+.fa-whatsapp, .fa-facebook, .fa-twitter {
+    color: darkviolet;
+    padding-right: 20px !important;
+    padding-top: 4px;
+}
+.brand1{
+    color: darkviolet;
+    font-size: 30px;
+}
+.footer{
+    margin-top:10px;
+}
+/*
+@media (max-width: 800px) {
+    .home {
+        height: 100vh;
+        
+    }
+
+    .aboutus {
+        height: 120vh;
+        
+    }
+
+    .services {
+        height: 180vh;
+        
+    }
+
+    .contactus {
+        height: 70vh;
+        
+    }
+
+    .available {
+        height : 75vh;
+        
+    }
+}*/
+
+@media (max-width: 1000px) {
+    .home {
+        height: 155vh;
+    }
+    
+
+    .aboutus {
+        height: 150vh;
+    }
+
+    .services {
+       height: 220vh;
+    }
+    
+    .contactus {
+        height: 100vh;
+    }
+
+    .available {
+        height: 100vh;
+    }
+}
