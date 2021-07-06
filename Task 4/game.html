@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="game.css">
+</head>
+
+<body style="background-color: #FDD !important;">
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="game.js"></script>
+  <div class="Main">
+    <div class="container response">
+      <div class="row">
+        <div>
+          <form name="myForm">
+            <p>Enter Your Response</p>
+            <input type="text" name="input1" class="form-control form-control text">
+          </form>
+        </div>
+        <div>
+          <input type="button" onclick="return Answer()" value="Your Response" class=" btn btn-info">
+          <p id="you1"></p>
+          <p id="Comp1"></p>
+          <p id="result"></p>
+        </div>
+        <div class="Score">
+          <p>ScoreBoard </p>
+          <p id="You"></p>
+          <p id="Comp"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
